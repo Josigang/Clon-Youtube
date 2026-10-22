@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini YouTube</title>
+    <meta
+      name="description"
+      content="Proyecto de práctica tipo YouTube con HTML y CSS."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <button class="icon-button" aria-label="Abrir menú">
+          <img src="Icons/menu.svg" alt="" />
+        </button>
+        <a class="logo" href="#" aria-label="Ir al inicio">
+          <span class="logo-mark"><img src="Icons/play.svg" alt="" /></span>
+          <span>MiniTube</span>
+        </a>
+      </div>
+
+      <form class="buscar" role="search">
+        <label class="visually-hidden" for="busqueda">Buscar videos</label>
+        <input id="busqueda" type="text" placeholder="Buscar" />
+        <button type="submit" aria-label="Buscar">
+          <img src="Icons/search.svg" alt="" />
+        </button>
+      </form>
+
+      <div class="actions">
+        <button class="create-button">
+          <img src="Icons/plus.svg" alt="" />
+          Crear
+        </button>
+        <button class="icon-button" aria-label="Notificaciones">
+          <img src="Icons/bell.svg" alt="" />
+        </button>
+        <button class="icon-button" aria-label="Perfil">
+          <img src="Icons/circle-user-round.svg" alt="" />
+        </button>
+      </div>
+    </header>
+
+    <div class="container">
+      <aside class="menu">
+        <ul>
+          <li><a href="#"><img src="Icons/house.svg" alt="" />Inicio</a></li>
+          <li><a href="#"><img src="Icons/clapperboard.svg" alt="" />Shorts</a></li>
+          <li><a href="#"><img src="Icons/list-video.svg" alt="" />Suscripciones</a></li>
+          <li><a href="#"><img src="Icons/history.svg" alt="" />Historial</a></li>
+        </ul>
+      </aside>
+
+      <main>
+        <section class="categorias">
+          <button class="activo">Todos</button>
+          <button>Música</button>
+          <button>Mixes</button>
+          <button>Videojuegos</button>
+          <button>Podcasts</button>
+          <button>Teorías</button>
+          <button>Audio comentario</button>
+          <button>R&B contemporáneo</button>
+        </section>
+
+        <div class="videos">
+          <article>
+            <img
+              src="https://img.youtube.com/vi/SGOgqkUdUfA/maxresdefault.jpg"
+              alt="Miniatura de Youngest Daughter"
+            />
+            <h2>Youngest Daughter</h2>
+            <p>Superheaven</p>
+            <p>39 M hace 6 a</p>
+          </article>
+
+          <article>
+            <img
+              src="https://img.youtube.com/vi/kIEWJ1ljEro/maxresdefault.jpg"
+              alt="Miniatura de Joji - Die For You"
+            />
+            <h2>Joji - Die For You</h2>
+            <p>Joji</p>
+            <p>108 M hace 3 a</p>
+          </article>
+
+          <article>
+            <img
+              src="https://img.youtube.com/vi/Pa67b28h0vY/maxresdefault.jpg"
+              alt="Travis Scott - ASTROTHUNDER (Audio)"
+            />
+            <h2>Travis Scott - ASTROTHUNDER (Audio)</h2>
+            <p>Travis Scott</p>
+            <p>56 M hace 8 a</p>
+          </article>
+
+          <article>
+            <img
+              src="https://img.youtube.com/vi/MVs9ZCyGiI4/maxresdefault.jpg"
+              alt="Las 7 personas más odiadas de TODO EL MUNDO II"
+            />
+            <h2>Las 7 personas más odiadas de TODO EL MUNDO II</h2>
+            <p>DrossRotzank</p>
+            <p>1.7 M hace 8 dias</p>
+          </article>
+
+          <article>
+            <img
+              src="https://img.youtube.com/vi/I_AnU7O-Gzo/maxresdefault.jpg"
+              alt="UN DIOS HA ROTO DARK SOULS 3 (Nuevo Récord Mundial)"
+            />
+            <h2>UN DIOS HA ROTO DARK SOULS 3 (Nuevo Récord Mundial)</h2>
+            <p>Powerbazinga TV</p>
+            <p>175 K hace 8 dias</p>
+          </article>
+
+          <article>
+            <img
+              src="https://img.youtube.com/vi/yB3K0Wk6sJU/maxresdefault.jpg"
+              alt="How Israel Was Created"
+            />
+            <h2>How Israel Was Created</h2>
+            <p>Ryan Champman</p>
+            <p>1.3 M hace 11 m</p>
+          </article>
+
+          <article>
+            <img
+              src="https://img.youtube.com/vi/plN7JMbadRg/maxresdefault.jpg"
+              alt="Come todo lo que hay en este Supermercado por 1,000,000"
+            />
+            <h2>Come todo lo que hay en este Supermercado por 1,000,000 $</h2>
+            <p>Mr Beast</p>
+            <p>118 M hace 12 dias</p>
+          </article>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
